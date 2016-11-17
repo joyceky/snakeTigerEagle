@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" defer></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js" defer></script>
+<link href="https://fonts.googleapis.com/css?family=Prociono|Ravi+Prakash" rel="stylesheet">
+  <script type="text/javascript" src="script.js" defer></script>
+
+    <title>SnakeTigerEagle</title>
+  </head>
+  <body>
+
+    <div class="row center">
+      <h1>SnakeTigerEagle</h1>
+      <h3>Welcome! Here are the rules:</h3>
+      <p>Select an animal from the 3 below. <br>
+        Snake beats Tiger, Tiger beats Eagle, and Eagle beats Snake.
+      </p>
+    </div>
+
+    <div class="images row center">
+      <div class="col s4" name="snake">
+        <img class="hoverable" id="snake"  src="snake.jpg">
+      </div>
+      <div class="col s4" name="tiger">
+        <img class="hoverable" id="tiger" src="tiger.jpg">
+      </div>
+      <div class="col s4" name="eagle">
+        <img class="hoverable" id="eagle" src="eagle.jpg">
+      </div>
+    </div>
+
+    <div class="row center" id="resultDiv">
+      <div class="col s12">
+        <p>Result:</p>
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <div class="row center" id="score">
+      <div class="col s6">
+        <p>User Score:</p>
+        <p id="userScore"></p>
+      </div>
+      <div class="col s6">
+        <p>Computer Score:</p>
+        <p id="compScore"></p>
+      </div>
+    </div>
+
+    <div class="row center">
+      <div class="col s12">
+        <a class="waves-effect waves-light btn red" id="reset">Reset</a>
+      </div>
+    </div>
+
+
+  </body>
+</html>

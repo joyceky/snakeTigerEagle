@@ -1,0 +1,45 @@
+* {
+  background-color: rgb(189, 189, 189);
+}
+
+h1 {
+  font-family: "Ravi Prakash";
+  color: rgb(231, 78, 22)
+}
+
+h3 {
+  font-family: "Ravi Prakash"
+}
+
+p {
+  font-family: "Prociono";
+  font-size: 25px;
+}
+
+#snake {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+#tiger {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+#eagle {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.images {
+  width: 100vw;
+}
+
+#score {
+  border: 1px solid grey;
+  width: 70vw;
+
+}
